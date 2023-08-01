@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding:0 ;
+}
+body,html{
+    font-family: "Quicksand" , sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    
+}
+#scales{
+    z-index: 4;
+}
+  #scales:checked ~.container{
+background-color: black;
+ } 
+
+
+/* Start the nav bar */
+.container nav{
+display: flex;
+justify-content: space-between;
+}
+.container nav .searching{
+    display: flex;
+    position: relative;
+}
+.container nav .searching input[type="search"]{
+width: 400px;
+/* padding: 0 10px; */
+overflow: hidden;
+border-radius: 0px 4px 4px 0px;
+    border: 1px solid var(--gray-200, #E4E4E7);
+    background: var(--gray-50, #FAFAFA);
+}
+.container nav .searching .search {
+    height: 36px;
+    background-color: #fff;
+    right: 9%;
+    display: flex;
+    padding: 0 14px;
+}
+.container nav .searching .search #search{
+    width: 24px;
+    align-items: center;
+}
+
+.container nav .account{
+    display: flex;
+    width: 160px;
+}
+.container nav .account img{
+    margin: 0 4px ;
+}
+.container nav .account #three{
+margin-right: 40px;
+}
+/* Finishing the nav bar */
+/* Start youtube section */
+section .content{
+width: 700px;
+}
+section .content .text{
+
+}
+section .content .text .icons{
+display: flex;
+justify-content: flex-end;
+}
+section .content .text .box{
+    display: flex;
+    justify-content: space-between;
+}
+section .content .text .box p{
+    color:#777
+}
+section .content .text .icons img{
+    margin: 0 10px 0 20px;
+    padding-bottom: 10px;
+}
+.BigBox{
+    margin-top: 30px;
+    display: flex;
+    gap : 20px ;
+}
+/* Finising youtube section */
